@@ -1,0 +1,9 @@
+#apartmentContainer{
+    text-align: center;
+}
+
+#Apartment01{
+    display: inline-block;
+    width:1100px;
+    height:730px;
+}
