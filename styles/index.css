@@ -22,15 +22,41 @@
 }
 
 #profileButton{
-    background-color:#497C51;
+    background-image:#497C51;
     border-color:white;
-    border-style:inset;
+    border-style:solid;
     border-radius:90px;
     position:fixed;
+    padding: 0px;
     top:50px;
     left:50px;
     width: 85px;
     height: 85px;
+    outline:none;
+}
+
+#ProfilePic{
+    border-radius:90px;
+    background-color:transparent;
+}
+
+#profileOptions{
+    position: fixed;
+    top:160px;
+    left:40px;
+    width:100px;
+    background-color:grey;
+    border-color:#286130;
+    border-style:solid;
+    border-radius:25px;
+}
+
+ul{
+    text-align:center;
+    list-style:none;
+    background-color:white;
+    border-radius: 25px;
+    padding:10px 0px;
 }
 
 #Apartment01{
@@ -52,14 +78,21 @@
 
 #screenContainer{
     position: inherit;
-    top:296px;
-    right:325px;
+    top:291px;
+    right:331px;
     width:90px;
     height:60px;
-    background-color:black;
+    background-color:transparent;
+}
+
+#screen{
+    position: inherit;
+    top:291px;
+    right:331px;
 }
 
 #onButton{
     background-color:transparent;
     border-color:transparent;
+    outline:none;
 }
