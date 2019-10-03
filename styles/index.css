@@ -58,8 +58,6 @@ h2{
     font-size: 60px;
 }
 
-
-
 #Apartment01{
     position:fixed;
     top:20px;
@@ -69,4 +67,21 @@ h2{
     border-color:#286130;
     border-style:solid;
     border-radius:25px;
+}
+
+#Tv01{
+    position:fixed;
+    top:20px;
+    left:250px;
+    width:1000px;
+    height:610px;
+}
+
+#onButton{
+    position: absolute;
+    top:294px;
+    right:270px;
+    width:100px;
+    height:60px;
+    background-color:black;
 }
