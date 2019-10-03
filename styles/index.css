@@ -9,60 +9,33 @@
     height:100vh;
 }
 
-#sidePanelContainer{
-    background-color:#497C51;
-    border-color:#286130;
-    border-left-color:white;
-    border-top-color:white;
-    border-style:inset;
-    border-radius:25px;
-    position:fixed;
-    top:20px;
-    left:20px;
-    width: 200px;
-    height: 691px;
-}
-
 #itemPanelContainer{
+    background-color:grey;
+    border-color:#286130;
+    border-style:solid;
+    border-radius:90px;
+    position:fixed;
+    top:40px;
+    left:40px;
+    width: 100px;
+    height: 100px;
+}
+
+#profileButton{
     background-color:#497C51;
-    border-color:grey;
-    border-left-color:#286130;
+    border-color:white;
     border-style:inset;
-    border-radius:25px;
+    border-radius:90px;
     position:fixed;
-    top:30px;
-    left:30px;
-    width: 180px;
-    height: 70px;
-}
-
-#items{
-    background-color:rgb(207, 201, 175);
-    border-color:grey;
-    border-left-color:#286130;
-    border-style:inset;
-    border-radius:25px;
-    position:fixed;
-    top:110px;
-    left:30px;
-    width: 180px;
-    height: 580px;
-}
-
-h2{
-    position:fixed;
-    top:35px;
+    top:50px;
     left:50px;
-    margin:0px;
-    color: #286130;
-    font-size: 60px;
+    width: 85px;
+    height: 85px;
 }
 
 #Apartment01{
-    position:fixed;
-    top:20px;
-    left:250px;
-    width:1000px;
+    margin: 20px 20px;
+    width:95vw;
     height:610px;
     border-color:#286130;
     border-style:solid;
@@ -72,16 +45,21 @@ h2{
 #Tv01{
     position:fixed;
     top:20px;
-    left:250px;
+    left:305px;
     width:1000px;
     height:610px;
 }
 
-#onButton{
-    position: absolute;
-    top:294px;
-    right:270px;
-    width:100px;
+#screenContainer{
+    position: inherit;
+    top:296px;
+    right:325px;
+    width:90px;
     height:60px;
     background-color:black;
+}
+
+#onButton{
+    background-color:transparent;
+    border-color:transparent;
 }

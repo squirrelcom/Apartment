@@ -1,3 +1,3 @@
 function printImage() {
-document.getElementById("screen").src = "./images/05.gif";
+document.getElementById("screen").src="./images/05.gif";
 }

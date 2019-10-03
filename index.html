@@ -7,21 +7,15 @@
 
 <body>
     <div id="apartmentContainer">
-        <div id="sidePanelContainer" width="130px" height="730px">
-            <div id="itemPanelContainer">
-                <h2>Items</h2>
-                <div id="items"></div>
-            </div>
+        <div id="itemPanelContainer">
+            <button id="profileButton"></button>
         </div>
-        <img id="Apartment01" src="./images/Apartment01.png" alt="" width="1100" height="730"/>
-    </div>
-    <div>
-        <button id="onButton" onclick="printImage()"><img id="screen" src="" style="width:90px"/></button>
-    </div>    
-   <div>
+        <img id="Apartment01" src="./images/Apartment01.png" />
         <img id="Tv01" src="./images/Tv01.png" alt="" width="1100" height="730"/>
-   </div>
-
+        <div id="screenContainer">
+            <button id="onButton" onclick="printImage()" style="width:90px"><img id="screen" src="./images/screen.png" style="width:60px"/></button>
+        </div>  
+    </div>
     <script src="./scripts/logic.js"></script>
 </body>
 </html>
