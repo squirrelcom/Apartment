@@ -41,6 +41,7 @@
 }
 
 #profileOptions{
+    display:none;
     position: fixed;
     top:160px;
     left:40px;
@@ -55,8 +56,12 @@ ul{
     text-align:center;
     list-style:none;
     background-color:white;
-    border-radius: 25px;
-    padding:10px 0px;
+    color:#286130;
+    border-radius: 15px;
+    padding:8px 0px;
+    margin: 10px;
+    font-family: 'Chicle', cursive;
+    font-size: 27px;
 }
 
 #Apartment01{
