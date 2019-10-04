@@ -101,3 +101,28 @@ ul{
     border-color:transparent;
     outline:none;
 }
+
+#radarContainer{
+    display:inline-block;
+    background-color:grey;
+    border-color:#286130;
+    border-style:solid;
+    border-radius:90px;
+    position:fixed;
+    top:40px;
+    right:55px;
+    width: 100px;
+    height: 100px;
+}
+
+#radar{
+    text-align:center;
+    background-color:black;
+    border-radius:90px;
+    padding: 0px;
+    width: 100px;
+    height: 100px;
+    outline:none;
+    color:green;
+    font-size:37px;
+}
