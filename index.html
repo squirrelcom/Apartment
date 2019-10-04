@@ -22,9 +22,25 @@
         <img id="Apartment01" src="./images/Apartment01.png" />
         <img id="Tv01" src="./images/Tv01.png" alt="" width="1100" height="730"/>
         <div id="screenContainer">
-            <button id="onButton" onclick="printImage()" style="width:90px"><img id="screen" src="./images/screen.png" style="width:60px"/></button>
+            <button id="onButton" onclick="printImage()" style="width:90px"><img id="screen" src="./images/screen.png" style="width:66px"/></button>
         </div>  
     </div>
     <script src="./scripts/logic.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+        var clicked = false;
+    $("#profileButton").click(function(){
+        if (clicked == false){
+            $("#profileOptions").slideDown(1000);
+            clicked = true;
+        } else if (clicked == true) {
+            $("#profileOptions").slideUp(1000);
+            clicked = false;
+        }
+    });
+
+});
+    </script>
 </body>
 </html>
