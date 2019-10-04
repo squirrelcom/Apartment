@@ -66,8 +66,8 @@ ul{
 
 #Apartment01{
     margin: 20px 20px;
-    width:95vw;
-    height:610px;
+    width:96vw;
+    height:634px;
     border-color:#286130;
     border-style:solid;
     border-radius:25px;
@@ -79,6 +79,14 @@ ul{
     left:305px;
     width:1000px;
     height:610px;
+}
+
+#Blinds{
+    position:fixed;
+    top:33px;
+    left:26px;
+    width:96vw;
+    height:634px;
 }
 
 #screenContainer{
