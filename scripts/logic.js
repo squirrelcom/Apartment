@@ -13,3 +13,8 @@ function printImage() {
     }
 }
 
+function closeBlinds(){
+        var num =Math.floor((Math.random() * 5) + 1);
+        console.log(num);
+    document.getElementById("Blinds").src="./images/Blinds0"+num+".png";
+}
