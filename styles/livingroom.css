@@ -1,0 +1,60 @@
+#apartmentContainer{
+    position:fixed;
+    top:0px;
+    left:0px;
+    background-color:#497C51;
+    border-color:#286130;
+    border-style:solid;
+    width:100vw;
+    height:100vh;
+}
+
+#Apartment01{
+    margin: 20px 20px;
+    width:96vw;
+    height:634px;
+    border-color:#286130;
+    border-style:solid;
+    border-radius:25px;
+}
+
+#Tv01{
+    position:fixed;
+    top:20px;
+    left:305px;
+    width:1000px;
+    height:610px;
+}
+
+#Blinds{
+    position:inherit;
+    top:33px;
+    left:26px;
+}
+
+#blindsLeft{
+    width: 85px;
+    height: 85px;
+    outline:none;
+}
+
+#screenContainer{
+    position: inherit;
+    top:291px;
+    right:338px;
+    width:90px;
+    height:60px;
+    background-color:transparent;
+}
+
+#screen{
+    position: inherit;
+    top:291px;
+    right:331px;
+}
+
+#onButton{
+    background-color:transparent;
+    border-color:transparent;
+    outline:none;
+}
