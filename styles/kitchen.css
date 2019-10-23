@@ -1,0 +1,44 @@
+#roomContainer{
+    position:fixed;
+    top:0px;
+    left:0px;
+    background-color:#497C51;
+    border-color:#286130;
+    border-style:solid;
+    width:100vw;
+    height:100vh;
+}
+
+#Kitchen{
+    margin: 20px 20px;
+    width:96vw;
+    height:634px;
+    border-color:#286130;
+    border-style:solid;
+    border-radius:25px;
+}
+
+#radarContainer{
+    display:inline-block;
+    background-color:grey;
+    border-color:#286130;
+    border-style:solid;
+    border-radius:90px;
+    position:fixed;
+    top:40px;
+    right:55px;
+    width: 100px;
+    height: 100px;
+}
+
+#radar{
+    text-align:center;
+    background-color:black;
+    border-radius:90px;
+    padding: 0px;
+    width: 100px;
+    height: 100px;
+    outline:none;
+    color:green;
+    font-size:37px;
+}

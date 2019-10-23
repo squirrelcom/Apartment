@@ -158,3 +158,21 @@ ul{
     width: 100px;
     height: 100px;
 }
+
+#upnav{
+    display:inline-block;
+    position:fixed;
+    top:300px;
+    left:45%;
+    width: 100px;
+    height: 100px;
+}
+
+#downnav{
+    display:inline-block;
+    position:fixed;
+    bottom:10px;
+    left:45%;
+    width: 100px;
+    height: 100px;
+}
