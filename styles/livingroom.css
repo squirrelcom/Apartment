@@ -27,12 +27,19 @@
 }
 
 #Blinds{
-    position:inherit;
-    top:33px;
-    left:26px;
+    border-radius:90px;
+    background-color:transparent;
 }
 
-#blindsLeft{
+#blindsButton{
+    background-image:#497C51;
+    border-color:white;
+    border-style:solid;
+    border-radius:90px;
+    position:fixed;
+    padding: 0px;
+    top:270px;
+    left:520px;
     width: 85px;
     height: 85px;
     outline:none;

@@ -81,20 +81,6 @@ ul{
     height:610px;
 }
 
-#Blinds{
-    position:fixed;
-    top:33px;
-    left:26px;
-    width:96vw;
-    height:634px;
-}
-
-#blindsLeft{
-    width: 85px;
-    height: 85px;
-    outline:none;
-}
-
 #screenContainer{
     position: inherit;
     top:291px;
