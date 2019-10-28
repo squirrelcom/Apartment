@@ -32,14 +32,9 @@
 }
 
 #blindsButton{
-    background-image:#497C51;
     border-color:white;
     border-style:solid;
     border-radius:90px;
-    position:fixed;
-    padding: 0px;
-    top:270px;
-    left:520px;
     width: 85px;
     height: 85px;
     outline:none;
